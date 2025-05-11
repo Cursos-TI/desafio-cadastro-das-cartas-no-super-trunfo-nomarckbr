@@ -31,7 +31,6 @@ unsigned long int populacao2;
     printf("Insira os pontos turísticos:\n");
     scanf("%d", &pontoturistico1);
     
-  
     // Entrada de dados da carta 2
     printf("\n--- CARTA 2 ---\n");
     printf("Insira o nome do Estado: (1 Letra de A-H)\n");
@@ -81,6 +80,7 @@ unsigned long int populacao2;
     printf("Número de Pontos Turísticos: %d\n", pontoturistico2);
     printf("Densidade Populacional: %f Km²\n", divis);
     printf("PIB per Capita: %f reais\n", divis2);
+    
     //Comparação das cartas
     printf("\n--- COMPARAÇÃO DAS CARTAS:---\n");
     if (populacao1 > populacao2) {
